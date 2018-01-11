@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
+
+
+
+body{
+	background-color:#eeef95;
+}
+
+button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+	border: none;
+}
+ 
+#Homepage {
+	background-color: #eeef95;
+}
+
+#Homepage h1{
+	font-family: "Caveat Brush", cursive;
+	color:white ;
+	position: absolute;
+}
+@media (max-width: 550px) {
+	#Homepage h1{
+		font-size:24px;
+		top:15%;
+		left:35%;
+	}
+}
+@media (min-width: 551px) {
+	#Homepage h1{
+		top: 40px;
+		left: 30%;
+	}
+}
+
+#Homepage h2{
+	font-family: "Caveat Brush", cursive;
+	font-size: 18px;
+	color:#eeef95 ;
+	position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+#Homepage .title{
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+@media (min-width: 551px) {
+	#Homepage img{
+		width: 150%;
+		height: auto;
+		transform: translate(-70px, -38px)
+	}
+}
+
+#Homepage #links{
+	font-family: "Caveat Brush", cursive;
+	color:white;
+	font-size: 24px;
+	text-align:center;
+	display:none;
+}
+
+#Homepage #links #NewsLink{
+	text-decoration:none;
+	color:white;
+	position: absolute;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	background: black;
+	top:5%;
+	left: 50%;
+	transform: translate(-50px,0px);
+	line-height: 100px;
+}
+
+#Homepage #links .ToursLink{
+	text-decoration:none;
+	color:white;
+	position: absolute;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	background: black;
+	left: 70%;
+	top: 20%;
+	line-height: 100px;
+}
+
+#Homepage #links .StoreLink{
+	text-decoration:none;
+	color:white;
+	position: absolute;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	background: black;
+	left: 70%;
+	bottom: 20%;
+	line-height: 100px;
+}
+
+#Homepage #links .VideosLink{
+	text-decoration:none;
+	color:white;
+	position: absolute;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	background: black;
+	left: 50%;
+	transform: translate(-50px,0px);
+	bottom: 10%;
+	line-height: 100px;
+}
+
+#Homepage #links .CustomiserLink{
+	text-decoration:none;
+	color:white;
+	position: absolute;
+	font-size: 22px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	background: black;
+	right: 70%;
+	bottom: 20%;
+	line-height: 100px;
+}
+
+#Homepage #links .ContactLink{
+	text-decoration:none;
+	color:white;
+	position: absolute;
+	font-size: 18px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	background: black;
+	right: 70%;
+	top: 20%;
+	line-height: 100px;
+}
+
+#Newspage{
+	background-color: #eeef95;
+}
+
+@media (min-width: 1300px) {
+	#Navbar{
+		font-family: "Caveat Brush", cursive;
+		background-color:#eeef95 ;
+		font-size: 200%;
+		max-width: 100%;
+	}
+	
+	#Navbar ul{
+		list-style-type: none;
+	}
+
+
+	#Navbar .NavNews{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		position: absolute;
+		left: 2%;
+	} 
+
+	#Navbar .NavTours{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		position:absolute;
+		left: 15%;
+	} 
+
+	#Navbar .NavStore{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		position: absolute;
+		left: 30%;
+	} 
+
+	#Navbar .NavTitle{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		left:43%;
+		position: absolute;
+		font-size: 36px;
+		font-weight: bold;
+	} 
+
+	#Navbar .NavVideos{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		right:35%;
+		position: absolute;
+	} 
+
+	#Navbar .NavCustomiser{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		right:20%;
+		position: absolute;
+	} 
+
+	#Navbar .NavContact{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		right:5%;
+		position: absolute;
+	} 
+}
+
+@media (max-width: 720px) {
+	#Navbar{
+		font-family: "Caveat Brush", cursive;
+		font-size:12px;
+		max-width: 100%;
+	}
+
+	#Navbar ul{
+		list-style-type: none;
+	}
+
+
+	#Navbar .NavNews{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		position: absolute;
+		left: 2%;
+	} 
+
+	#Navbar .NavTours{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		position:absolute;
+		left: 15%;
+	} 
+
+	#Navbar .NavStore{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		position: absolute;
+		left: 30%;
+	} 
+
+	#Navbar .NavTitle{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		left:43%;
+		position: absolute;
+		font-weight: bold;
+		display:none;
+	} 
+
+	#Navbar .NavVideos{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		right:44%;
+		position: absolute;
+	} 
+
+	#Navbar .NavCustomiser{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		right:25%;
+		position: absolute;
+	} 
+
+	#Navbar .NavContact{
+		top:2%;
+		text-decoration:none;
+		color:black;
+		right:5%;
+		position: absolute;
+	} 
+}
+@media (min-width: 721px){
+	@media (max-width: 1301px) {
+		#Navbar{
+			font-family: "Caveat Brush", cursive;
+			font-size:20px;
+			max-width: 100%;
+		}
+		#Navbar ul{
+			list-style-type: none;
+		}
+
+
+		#Navbar .NavNews{
+			top:2%;
+			text-decoration:none;
+			color:black;
+			position: absolute;
+			left: 2%;
+		} 
+
+		#Navbar .NavTours{
+			top:2%;
+			text-decoration:none;
+			color:black;
+			position:absolute;
+			left: 15%;
+		} 
+
+		#Navbar .NavStore{
+			top:2%;
+			text-decoration:none;
+			color:black;
+			position: absolute;
+			left: 30%;
+		} 
+
+		#Navbar .NavTitle{
+			top:2%;
+			text-decoration:none;
+			color:black;
+			left:43%;
+			position: absolute;
+			font-size: 22px;
+			font-weight: bold;
+		} 
+
+		#Navbar .NavVideos{
+			top:2%;
+			text-decoration:none;
+			color:black;
+			right:35%;
+			position: absolute;
+		} 
+
+		#Navbar .NavCustomiser{
+			top:2%;
+			text-decoration:none;
+			color:black;
+			right:20%;
+			position: absolute;
+		} 
+
+		#Navbar .NavContact{
+			top:2%;
+			text-decoration:none;
+			color:black;
+			right:5%;
+			position: absolute;
+		} 
+	}
+}
+
+#Newspage .News{
+	margin-top:5%;
+	font-family: 'Shadows Into Light', cursive;
+	padding-top:5%;
+	background-color: white;
+	text-align:center;
+}
+@media (min-width: 1301px) {
+	#Newspage .News{
+		font-size:20px;
+		margin-left:15%;
+		margin-right:15%;
+	}
+}
+
+#Newspage .News img{
+	max-height:600px;
+	max-width: 60%;
+}
+
+#Newspage .News h4{
+	font-size:150%;
+}
+
+#Newspage .News h3{
+	padding-left:10%;
+	color:grey;
+	text-align:left;
+}
+
+#Tourspage .Table table{
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	border-collapse: collapse;
+	position: absolute;
+	margin-top: 75px;
+}
+@media (min-width: 1301px) {
+	#Tourspage .Table table{
+		font-size: 24px;
+		left: 27%;
+	}
+}
+@media (min-width:800px){
+	@media (max-width: 1300px) {
+		#Tourspage .Table table{
+			font-size:18px;
+			left:10%;
+		}
+	}
+}
+@media (max-width: 799px) {
+	#Tourspage .Table table{
+		font-size:12px;
+	}
+}
+
+#Tourspage .Table th,#Tourspage .Table td{
+	padding: 10px;
+	border: 1px solid black;
+}
+
+#Tourspage .Table th{
+	background-color:black;
+	color: white;
+}
+
+#Storepage .Items {
+	text-align: center;
+	padding:50px;
+	background-color:white;
+	margin: 5%;
+	overflow:hidden;
+	list-style-type: none;
+}
+@media (max-width: 650px) {
+	#Storepage .Items {
+		padding:10px;
+		margin:0px;
+	}
+}
+
+#Storepage .Items h2, #Storepage .Items p{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+}
+@media (max-width: 650px) {
+	#Storepage .Items h2, #Storepage .Items p{
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 16px;
+	}
+}
+
+#Storepage .Items ul{
+	list-style-type: none;
+}
+
+#Storepage .Items  li{
+	display:inline-block;
+}
+
+#Storepage .Items img{
+	max-height: 300px;
+}
+@media (max-width: 650px) {
+	#Storepage .Items img{
+		max-height:150px;
+	}
+}
+
+#Storepage #Cart button{
+	font-family: 'Shadows Into Light', cursive;
+	position:absolute;
+	right: 2px;
+	background-color:black;
+	font-size:18px;
+	color:white;
+}
+@media (max-width: 650px) {
+	#Storepage #Cart button{
+		top:5%;
+		font-size:14px;
+	}
+}
+
+#Videospage .Videos iframe{
+	height:70%;
+	width:70%;
+	max-height:600px;
+	top:10%;
+	left: 15%;
+	position: absolute;
+}
+
+#Videospage .Other{
+	list-style-type: none;
+	text-align:center;
+	font-family: 'Shadows Into Light', cursive;
+	font-size:22px;
+	position:absolute;
+	left:15%;
+	top:80%;
+}
+@media (max-width: 650px) {
+	#Videospage .Other{
+		left:5%;
+		max-width:10%;
+	}
+}
+
+#Videospage .Other li{
+	display: inline-block;
+}
+
+#Customiserpage .Customiser{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#Customiserpage .Customiser #MainPic {
+	max-height:450px;
+	position:absolute;
+	top:24%;
+	left:62%;
+}
+@media (max-width: 1200px) {
+	#Customiserpage .Customiser #MainPic {
+	}
+}
+
+#Customiserpage .Customiser #CustomiserCanvas{
+	position:absolute;
+	left:60%;
+	top:20%;
+	z-index:20;
+}
+
+#Customiserpage .Customiser #CustomiserCanvas img{
+	max-height:10%;
+}
+
+#Customiserpage .Customiser #CustomiserCanvas button{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#Customiserpage .Customiser h4{
+	font-size: 40px;
+}
+@media (max-width: 1200px) {
+	#Customiserpage .Customiser h4{
+		font-size:20px;
+	}
+}
+
+#Customiserpage .Customiser p{
+	font-size: 24px;
+}
+@media (max-width: 1200px) {
+	#Customiserpage .Customiser p{
+		font-size:12px;
+	}
+}
+
+#Customiserpage .Customiser h4, #Customiserpage .Customiser p{
+	top: 10%;
+	position:absolute;
+	left: 10%;
+}
+#Customiserpage .PicChoice{
+	position:absolute;
+	top:71%;
+	left:23%;
+}
+#Customiserpage .PicChoice li{
+	display:inline-block;
+	list-style-type: none;
+}
+
+#Customiserpage .PicChoice  img{
+	max-height:150px;
+}
+
+#Contactpage .email{
+	font-family: 'Shadows Into Light', cursive;
+	left:20%;
+	top:20%;
+	position:absolute;
+}
+
+#Contactpage .email h2{
+	font-size:72px;
+}
+
+#Contactpage .Contact img{
+	float:right;
+	max-height:100px;
+	padding-top: 60px;
+	padding-right: 5px;
+}
+@media (max-width: 680px) {
+	#Contactpage .Contact img{
+		max-height:40px;
+	}
+}
+#Cartpage #CartTable{
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	border-collapse: collapse;
+	position: absolute;
+	margin-top: 75px;
+}
+
+@media (min-width: 1201px){
+	#Cartpage #CartTable{
+		font-size: 24px;
+		left: 34%;
+	}
+}
+@media (max-width: 1200px){
+	@media (min-width:621px){
+		#Cartpage #CartTable{
+			font-size:18px;
+			left:30%;
+		}
+	}
+}
+@media (max-width: 620px){
+	#Cartpage #CartTable{
+		font-size:10px;
+		left:20%;
+	}
+}
+#Cartpage #CartTable th,#Cartpage #CartTable td{
+	padding: 10px;
+	border: 1px solid black;
+	background-color:black;
+	color: white;
+}
+
+#Cartpage #CartPrice{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+	position:absolute;
+	bottom: 10px;
+	left: 10px;
+}
+@media (max-width: 1200px){
+	#Cartpage #CartPrice{
+		font-size: 12px;
+	}
+}
+
+#Cartpage input{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px;
+	position:absolute;
+	bottom: 100px;
+	left:10px;
+}
+@media (max-width: 1200px){
+	#Cartpage input{
+		font-size: 12px;
+	}
+}
+
+
+#Cartpage button{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 22px;
+	position:absolute;
+	bottom: 150px;
+	left:0px;;
+}
+@media (max-width: 1200px){
+	#Cartpage button{
+		font-size: 12px;
+	}
+}

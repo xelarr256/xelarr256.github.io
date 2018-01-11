@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="JS/Javascript.js"></script>
+		<title>Mac Demarco Store</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body id = "Storepage">
+		<div id = "Navbar">
+			<a href="News.html" class="NavNews"> News </a>
+			<a href="Tours.html" class="NavTours"> Tours </a>
+			<a href="Store.html" class="NavStore"> Store </a>
+			<a href="index.html" class="NavTitle"> Mac Demarco </a>
+			<a href="Videos.html" class="NavVideos"> Videos </a>
+			<a href="Customiser.html" class="NavCustomiser"> Customiser </a>
+			<a href="ContactUs.html" class="NavContact"> Contact Us </a>
+
+		</div>
+		<div id="Cart">
+			<button onclick="window.location.href='Cart.html'">
+				Click To Go To Cart
+			</button>
+		</div>
+		<div class="Items">
+			<h2> Click an Item to add it to your cart </h2>
+			<ul>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('This Old Dog T-Shirt - White', '30.00')">
+					<img alt="White Old Dog T Shirt" src="Assets/WhiteOldDog.jpg">
+					</button>
+					<h2> This Old Dog T-Shirt - White </h2>
+					<p> $30.00 </p>
+					
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('This Old Dog T-Shirt - Yellow', '30.00')">
+					<img alt="Yellow Old Dog T Shirt" src="Assets/YellowOldDog.jpg">
+					</button>
+					<h2> This Old Dog T-Shirt - Yellow </h2>
+					<p> $30.00 </p>
+					
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('People Doodle T-Shirt - Black', '30.00')">
+					<img alt="White People Doodle T Shirt" src="Assets/PeopleDoodleBlack.jpg">
+					</button>
+					<h2> People Doodle T-Shirt - Black </h2>
+					<p> $30.00 </p>
+					
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Dog Mirror T-Shirt - White', '30.00')">
+					<img alt="White Dog Mirror T Shirt" src="Assets/DogMirrorWhite.jpg">
+					</button>
+					<h2> Dog Mirror T-Shirt - White </h2>
+					<p> $30.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Elton John T-Shirt - Black', '30.00')">
+					<img alt="Black Elton John T Shirt" src="Assets/EltonJohnBlack.jpg">
+					</button>
+					<h2> Elton John T-Shirt - Black </h2>
+					<p> $30.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Dog Doodle T-Shirt - White', '30.00')">
+					<img alt="White This Old Dog T Shirt" src="Assets/ThisOldDogWhite.jpg">
+					</button>
+					<h2> Dog Doodle T-Shirt - White </h2>
+					<p> $30.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Montero Ponies T-Shirt - White', '30.00')">
+					<img alt="White Montero Ponies T Shirt" src="Assets/MonteroPoniesWhite.jpg">
+					</button>
+					<h2> Montero Ponies T-Shirt - White </h2>
+					<p> $30.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('People Doodle T-Shirt - White', '30.00')">
+					<img alt="White People Doodle T Shirt" src="Assets/PeopleDoodleWhite.jpg">
+					</button>
+					<h2> People Doodle T-Shirt - White </h2>
+					<p> $30.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Dog Doodle Dad Hat - Green', '30.00')">
+					<img alt="Green Dog Doodle Hat" src="Assets/DogDoodleHatGreen.png">
+					</button>
+					<h2> Dog Doodle Dad Hat - Green </h2>
+					<p> $30.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Mac Demarco Another One Tote Bag', '12.00')">
+					<img alt="Another One Tote Bag" src="Assets/AnotherOneTote.jpg">
+					</button>
+					<h2> Mac Demarco Another One Tote Bag</h2>
+					<p> $12.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Dog Mirror White Canvas Tote Bag', '12.00')">
+					<img alt="Dod Mirror Tote Bag" src="Assets/DogMirrorTote.jpg">
+					</button>
+					<h2> Dog Mirror White Canvas Tote Bag </h2>
+					<p> $12.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Mac Horseshoe Patch', '10.00')">
+					<img alt="Horseshoe Patch" src="Assets/MacHorseShoePatch.jpg">
+					</button>
+					<h2> Mac Horseshoe Patch </h2>
+					<p> $10.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Dog Doodle Patch - Yellow', '10.00')">
+					<img alt="Dog Doodle Patch" src="Assets/DogDoodlePatch.jpg">
+					</button>
+					<h2> Dog Doodle Patch </h2>
+					<p> $10.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Mac Dog Pin', '10.00')">
+					<img alt="Dog Pin" src="Assets/MacDogPin.jpg">
+					</button>
+					<h2> Mac Dog Pin </h2>
+					<p> $10.00 </p>
+				</li>
+				<li>
+					<button class = "ShopItem" onclick = "AddToCart('Dog Doodle Pin', '10.00')">
+					<img alt="Dog Doodle Pin" src="Assets/DogDoodlePin.jpg">
+					</button>
+					<h2> Dog Doodle Pin</h2>
+					<p> $10.00 </p>
+				</li>
+			</ul>
+		</div>
+
+
+
+	</body>
+</html>

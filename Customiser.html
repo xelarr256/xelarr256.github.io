@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="JS/Javascript.js"></script>
+		<title>Mac Demarco Shirt Customiser</title>
+		<meta charset="utf-8"/>
+	</head>
+	<body id = "Customiserpage" onLoad="Canvas();">
+		<div id = "Navbar">
+			<a href="News.html" class="NavNews"> News </a>
+			<a href="Tours.html" class="NavTours"> Tours </a>
+			<a href="Store.html" class="NavStore"> Store </a>
+			<a href="index.html" class="NavTitle"> Mac Demarco </a>
+			<a href="Videos.html" class="NavVideos"> Videos </a>
+			<a href="Customiser.html" class="NavCustomiser"> Customiser </a>
+			<a href="ContactUs.html" class="NavContact"> Contact Us </a>
+		</div>
+		<div class="Customiser">
+			<canvas id ="CustomiserCanvas" width="550" height="600">
+
+
+
+			</canvas>
+			<img alt="White Customiser T-Shirt" id="MainPic" src="Assets/CustomiserWhiteT.jpg" >
+			
+			<div class="PicChoice">
+			<select>
+				<option>Pick a design</option>
+				<option id="Pic1" onclick="Canvas('Pic1');">Viceroy Logo</option>
+				<option id="Pic2" onclick="Canvas('Pic2');">Lips Logo</option>
+				<option id="Pic3" onClick="Canvas('Pic3');">Horseshoe Logo</option>
+				<option id="Pic4" onClick="Canvas('Pic4');">Writing Logo</option>
+				<option id="Pic5" onClick="Canvas('Pic5');">Witch Logo</option>
+				<option id="Pic6" onClick="Canvas('Pic6');">Salad Days Logo</option>
+				
+			</select>
+			<button onClick="AddToCart('Custom T-Shirt', '35.00')">
+			Add To Cart
+			</button>
+			</div>
+			<h4> Customise Your Own T-Shirt </h4>
+			
+			<p> Pick a logo and decide which would look best on you </p>
+		</div>
+
+
+	</body>
+</html>
