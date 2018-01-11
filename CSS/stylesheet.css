@@ -169,7 +169,7 @@ button{
 	background-color: #eeef95;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1302px) {
 	#Navbar{
 		font-family: "Caveat Brush", cursive;
 		background-color:#eeef95 ;
@@ -311,8 +311,7 @@ button{
 		position: absolute;
 	} 
 }
-@media (min-width: 721px){
-	@media (max-width: 1301px) {
+@media (max-width: 1301px) {
 		#Navbar{
 			font-family: "Caveat Brush", cursive;
 			font-size:20px;
@@ -380,7 +379,7 @@ button{
 			right:5%;
 			position: absolute;
 		} 
-	}
+	
 }
 
 #Newspage .News{
@@ -426,14 +425,13 @@ button{
 		left: 27%;
 	}
 }
-@media (min-width:800px){
 	@media (max-width: 1300px) {
 		#Tourspage .Table table{
 			font-size:18px;
 			left:10%;
 		}
 	}
-}
+
 @media (max-width: 799px) {
 	#Tourspage .Table table{
 		font-size:12px;
@@ -640,13 +638,11 @@ button{
 		left: 34%;
 	}
 }
-@media (max-width: 1200px){
 	@media (min-width:621px){
 		#Cartpage #CartTable{
 			font-size:18px;
 			left:30%;
 		}
-	}
 }
 @media (max-width: 620px){
 	#Cartpage #CartTable{
